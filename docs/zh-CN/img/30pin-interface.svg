@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="893" viewBox="0 0 860 893" font-family="Microsoft YaHei,Segoe UI,sans-serif">
+<rect width="860" height="893" fill="#ffffff"/>
+<text x="24" y="40" font-size="20" font-weight="700" fill="#222">30-Pin 背包接口定义（背包端 · Hubo-Tack／ESP32-P4 主机）</text>
+<text x="24" y="64" font-size="12.5" fill="#6b6b6b">方框内编号为背包焊盘号，落图以此为准；旁注为可用功能 ｜ 主板 U1 针号 · ESP32-P4 GPIO（焊盘 16、19 为协处理器脚）。</text>
+<text x="24" y="84" font-size="12.5" fill="#6b6b6b">镜像规则：焊盘 n 为奇数对应 U1-(n+1)，为偶数对应 U1-(n−1)。</text>
+<rect x="14" y="102" width="832" height="620" rx="8" fill="#f7f7f5" stroke="#c9c6c0"/>
+<rect x="386" y="112" width="88" height="600" rx="6" fill="#fff" stroke="#c9c6c0" stroke-width="2"/>
+<rect x="393.0" y="119.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="136.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">1</text>
+<rect x="345.0" y="119.0" width="33.0" height="26" rx="4" fill="#fff" stroke="#c2410c" stroke-width="1.4"/>
+<text x="361.5" y="136.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#c2410c" text-anchor="middle">5V</text>
+<text x="337.0" y="136.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">持续 ≤ 2 A（两针合计） ｜ U1-2</text>
+<rect x="437.0" y="119.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="136.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">2</text>
+<rect x="482.0" y="119.0" width="33.0" height="26" rx="4" fill="#fff" stroke="#c2410c" stroke-width="1.4"/>
+<text x="498.5" y="136.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#c2410c" text-anchor="middle">5V</text>
+<text x="523.0" y="136.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">U1-1</text>
+<rect x="393.0" y="159.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="176.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">3</text>
+<rect x="337.5" y="159.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#c2410c" stroke-width="1.4"/>
+<text x="357.8" y="176.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#c2410c" text-anchor="middle">3V3</text>
+<text x="329.5" y="176.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">只给小负载 ｜ U1-4</text>
+<rect x="437.0" y="159.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="176.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">4</text>
+<rect x="482.0" y="159.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#c2410c" stroke-width="1.4"/>
+<text x="502.2" y="176.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#c2410c" text-anchor="middle">3V3</text>
+<text x="530.5" y="176.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">U1-3</text>
+<rect x="393.0" y="199.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="216.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">5</text>
+<rect x="337.5" y="199.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#6b7280" stroke-width="1.4"/>
+<text x="357.8" y="216.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#6b7280" text-anchor="middle">GND</text>
+<text x="329.5" y="216.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">U1-6</text>
+<rect x="437.0" y="199.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="216.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">6</text>
+<rect x="482.0" y="199.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#6b7280" stroke-width="1.4"/>
+<text x="502.2" y="216.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#6b7280" text-anchor="middle">GND</text>
+<text x="530.5" y="216.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">U1-5</text>
+<rect x="393.0" y="239.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="256.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">7</text>
+<rect x="307.5" y="239.0" width="70.5" height="26" rx="4" fill="#fff" stroke="#1d4ed8" stroke-width="1.4"/>
+<text x="342.8" y="256.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#1d4ed8" text-anchor="middle">HS_MISO</text>
+<text x="299.5" y="256.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">SPI MISO · I2S DIN · ADC ｜ U1-8 · GPIO21</text>
+<rect x="437.0" y="239.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="256.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">8</text>
+<rect x="482.0" y="239.0" width="63.0" height="26" rx="4" fill="#fff" stroke="#1d4ed8" stroke-width="1.4"/>
+<text x="513.5" y="256.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#1d4ed8" text-anchor="middle">HS_SCK</text>
+<text x="553.0" y="256.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">SPI SCK · I2S BCLK · ADC ｜ U1-7 · GPIO20</text>
+<rect x="393.0" y="279.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="296.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">9</text>
+<rect x="322.5" y="279.0" width="55.5" height="26" rx="4" fill="#fff" stroke="#1d4ed8" stroke-width="1.4"/>
+<text x="350.2" y="296.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#1d4ed8" text-anchor="middle">HS_CS</text>
+<text x="314.5" y="296.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">SPI CS · I2S LRCK ｜ U1-10 · GPIO23</text>
+<rect x="437.0" y="279.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="296.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">10</text>
+<rect x="482.0" y="279.0" width="70.5" height="26" rx="4" fill="#fff" stroke="#1d4ed8" stroke-width="1.4"/>
+<text x="517.2" y="296.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#1d4ed8" text-anchor="middle">HS_MOSI</text>
+<text x="560.5" y="296.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">SPI MOSI · I2S DOUT · ADC ｜ U1-9 · GPIO22</text>
+<rect x="393.0" y="319.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="336.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">11</text>
+<rect x="337.5" y="319.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#6b7280" stroke-width="1.4"/>
+<text x="357.8" y="336.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#6b7280" text-anchor="middle">GND</text>
+<text x="329.5" y="336.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">U1-12</text>
+<rect x="437.0" y="319.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="336.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">12</text>
+<rect x="482.0" y="319.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#6b7280" stroke-width="1.4"/>
+<text x="502.2" y="336.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#6b7280" text-anchor="middle">GND</text>
+<text x="530.5" y="336.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">U1-11</text>
+<rect x="393.0" y="359.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="376.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">13</text>
+<rect x="307.5" y="359.0" width="70.5" height="26" rx="4" fill="#fff" stroke="#be123c" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="342.8" y="376.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#be123c" text-anchor="middle">ESP_INT</text>
+<text x="299.5" y="376.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">中断，开漏低有效 ｜ U1-14 · GPIO5</text>
+<rect x="437.0" y="359.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="376.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">14</text>
+<rect x="482.0" y="359.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#7c3aed" stroke-width="1.4"/>
+<text x="502.2" y="376.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#7c3aed" text-anchor="middle">SCL</text>
+<text x="530.5" y="376.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">身份卡 I2C ｜ U1-13 · GPIO30</text>
+<rect x="393.0" y="399.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="416.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">15</text>
+<rect x="337.5" y="399.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#7c3aed" stroke-width="1.4"/>
+<text x="357.8" y="416.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#7c3aed" text-anchor="middle">SDA</text>
+<text x="329.5" y="416.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">身份卡 I2C ｜ U1-16 · GPIO31</text>
+<rect x="437.0" y="399.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="416.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">16</text>
+<rect x="482.0" y="399.0" width="85.5" height="26" rx="4" fill="#fff" stroke="#0f766e" stroke-width="1.4"/>
+<text x="524.8" y="416.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#0f766e" text-anchor="middle">CH32_ADC0</text>
+<text x="575.5" y="416.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">协处理器 ADC ｜ U1-15 · PA0</text>
+<rect x="393.0" y="439.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="456.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">17</text>
+<rect x="337.5" y="439.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#6b7280" stroke-width="1.4"/>
+<text x="357.8" y="456.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#6b7280" text-anchor="middle">GND</text>
+<text x="329.5" y="456.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">U1-18</text>
+<rect x="437.0" y="439.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="456.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">18</text>
+<rect x="482.0" y="439.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#6b7280" stroke-width="1.4"/>
+<text x="502.2" y="456.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#6b7280" text-anchor="middle">GND</text>
+<text x="530.5" y="456.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">U1-17</text>
+<rect x="393.0" y="479.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="496.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">19</text>
+<rect x="292.5" y="479.0" width="85.5" height="26" rx="4" fill="#fff" stroke="#0f766e" stroke-width="1.4"/>
+<text x="335.2" y="496.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#0f766e" text-anchor="middle">CH32_ADC1</text>
+<text x="284.5" y="496.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">协处理器 ADC ｜ U1-20 · PA1</text>
+<rect x="437.0" y="479.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="496.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">20</text>
+<rect x="482.0" y="479.0" width="48.0" height="26" rx="4" fill="#fff" stroke="#a16207" stroke-width="1.4"/>
+<text x="506.0" y="496.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#a16207" text-anchor="middle">CH04</text>
+<text x="538.0" y="496.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">PWM · GPIO ｜ U1-19 · GPIO32</text>
+<rect x="393.0" y="519.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="536.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">21</text>
+<rect x="330.0" y="519.0" width="48.0" height="26" rx="4" fill="#fff" stroke="#a16207" stroke-width="1.4"/>
+<text x="354.0" y="536.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#a16207" text-anchor="middle">CH03</text>
+<text x="322.0" y="536.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">GPIO ｜ U1-22 · GPIO46</text>
+<rect x="437.0" y="519.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="536.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">22</text>
+<rect x="482.0" y="519.0" width="48.0" height="26" rx="4" fill="#fff" stroke="#a16207" stroke-width="1.4"/>
+<text x="506.0" y="536.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#a16207" text-anchor="middle">CH01</text>
+<text x="538.0" y="536.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">PWM · GPIO ｜ U1-21 · GPIO33</text>
+<rect x="393.0" y="559.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="576.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">23</text>
+<rect x="337.5" y="559.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#6b7280" stroke-width="1.4"/>
+<text x="357.8" y="576.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#6b7280" text-anchor="middle">GND</text>
+<text x="329.5" y="576.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">U1-24</text>
+<rect x="437.0" y="559.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="576.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">24</text>
+<rect x="482.0" y="559.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#6b7280" stroke-width="1.4"/>
+<text x="502.2" y="576.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#6b7280" text-anchor="middle">GND</text>
+<text x="530.5" y="576.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">U1-23</text>
+<rect x="393.0" y="599.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="616.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">25</text>
+<rect x="307.5" y="599.0" width="70.5" height="26" rx="4" fill="#fff" stroke="#1d4ed8" stroke-width="1.4"/>
+<text x="342.8" y="616.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#1d4ed8" text-anchor="middle">HS_EXT1</text>
+<text x="299.5" y="616.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">I2S MCLK · UART · GPIO ｜ U1-26 · GPIO26</text>
+<rect x="437.0" y="599.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="616.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">26</text>
+<rect x="482.0" y="599.0" width="48.0" height="26" rx="4" fill="#fff" stroke="#a16207" stroke-width="1.4"/>
+<text x="506.0" y="616.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#a16207" text-anchor="middle">CH15</text>
+<text x="538.0" y="616.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">GPIO ｜ U1-25 · GPIO47</text>
+<rect x="393.0" y="639.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="408.0" y="656.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">27</text>
+<rect x="307.5" y="639.0" width="70.5" height="26" rx="4" fill="#fff" stroke="#1d4ed8" stroke-width="1.4"/>
+<text x="342.8" y="656.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#1d4ed8" text-anchor="middle">HS_EXT2</text>
+<text x="299.5" y="656.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">UART · GPIO ｜ U1-28 · GPIO28</text>
+<rect x="437.0" y="639.0" width="30" height="26" rx="4" fill="#fff" stroke="#c9c6c0" stroke-width="1.2"/>
+<text x="452.0" y="656.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">28</text>
+<rect x="482.0" y="639.0" width="70.5" height="26" rx="4" fill="#fff" stroke="#1d4ed8" stroke-width="1.4"/>
+<text x="517.2" y="656.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#1d4ed8" text-anchor="middle">HS_BUSY</text>
+<text x="560.5" y="656.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">PWM · PACK_PEN · GPIO ｜ U1-27 · GPIO27</text>
+<rect x="393.0" y="679.0" width="30" height="26" rx="4" fill="#fff" stroke="#be123c" stroke-width="2.5"/>
+<text x="408.0" y="696.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">29</text>
+<rect x="330.0" y="679.0" width="48.0" height="26" rx="4" fill="#fff" stroke="#1d4ed8" stroke-width="1.4"/>
+<text x="354.0" y="696.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#1d4ed8" text-anchor="middle">CH13</text>
+<text x="322.0" y="696.0" font-size="11.5" fill="#6b6b6b" text-anchor="end">GPIO ｜ U1-30 · GPIO29</text>
+<rect x="437.0" y="679.0" width="30" height="26" rx="4" fill="#fff" stroke="#be123c" stroke-width="2.5"/>
+<text x="452.0" y="696.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#222" text-anchor="middle">30</text>
+<rect x="482.0" y="679.0" width="40.5" height="26" rx="4" fill="#fff" stroke="#6b7280" stroke-width="1.4"/>
+<text x="502.2" y="696.5" font-family="Consolas,ui-monospace,monospace" font-size="12.5" font-weight="700" fill="#6b7280" text-anchor="middle">GND</text>
+<text x="530.5" y="696.0" font-size="11.5" fill="#6b6b6b" text-anchor="start">U1-29</text>
+<rect x="24" y="745" width="14" height="14" rx="3" fill="#fff" stroke="#c2410c" stroke-width="2"/>
+<text x="44" y="756" font-size="12" fill="#222">电源</text>
+<rect x="93" y="745" width="14" height="14" rx="3" fill="#fff" stroke="#6b7280" stroke-width="2"/>
+<text x="113" y="756" font-size="12" fill="#222">GND</text>
+<rect x="158" y="745" width="14" height="14" rx="3" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
+<text x="178" y="756" font-size="12" fill="#222">复用区 8 根（用途随 form_id）</text>
+<rect x="377" y="745" width="14" height="14" rx="3" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+<text x="397" y="756" font-size="12" fill="#222">身份卡 I2C</text>
+<rect x="24" y="767" width="14" height="14" rx="3" fill="#fff" stroke="#be123c" stroke-width="2"/>
+<text x="44" y="778" font-size="12" fill="#222">ESP_INT（开漏低有效，上拉在主板）</text>
+<rect x="264" y="767" width="14" height="14" rx="3" fill="#fff" stroke="#0f766e" stroke-width="2"/>
+<text x="284" y="778" font-size="12" fill="#222">协处理器 ADC</text>
+<rect x="381" y="767" width="14" height="14" rx="3" fill="#fff" stroke="#a16207" stroke-width="2"/>
+<text x="401" y="778" font-size="12" fill="#222">通用 GPIO / PWM</text>
+<text x="24" y="807" font-size="12" fill="#6b6b6b">· 信号名按主机视角（MISO、I2S DIN 为主机输入）。复用区 8 根线的用途由背包身份卡的 form_id 决定，主机校验通过前保持高阻。</text>
+<text x="24" y="827" font-size="12" fill="#6b6b6b">· 焊盘 7、8、10 的 ADC 与 SPI/I2S 等高速用法二选一；焊盘 25、27 在 form_id 0x05 中作 UART，焊盘 28 可作 PACK_PEN（3.4.6）。</text>
+<text x="24" y="847" font-size="12" fill="#6b6b6b">· 焊盘 16、19 接协处理器 ADC，非 5 V 容忍，使用时串 1 kΩ（3.4.5）。</text>
+<text x="24" y="867" font-size="12" fill="#6b6b6b">· 焊盘 29／30 最易接反：29 = CH13（U1-30），30 = GND（U1-29）。针位以 3.1 表为准。</text>
+</svg>
